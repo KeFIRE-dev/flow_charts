@@ -1,9 +1,59 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:145.0) Gecko/20100101 Firefox/145.0" version="29.2.10">
   <diagram name="Page-1" id="e7N122dW1w_GlEOpIr0y">
-    <mxGraphModel dx="2037" dy="1101" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1358" dy="734" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="9yTqHVjaec7hdCQsp45S-12" collapsed="1" parent="1" style="swimlane;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="Components" vertex="1">
+          <mxGeometry height="30" width="140" x="320" y="540" as="geometry">
+            <mxRectangle height="570" width="710" x="1260" y="790" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9yTqHVjaec7hdCQsp45S-1" parent="9yTqHVjaec7hdCQsp45S-12" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="Solenoid Vavlve" vertex="1">
+          <mxGeometry height="60" width="120" x="410" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9yTqHVjaec7hdCQsp45S-2" parent="9yTqHVjaec7hdCQsp45S-12" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="Pressure Transmitter" vertex="1">
+          <mxGeometry height="60" width="120" x="180" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="9yTqHVjaec7hdCQsp45S-3" parent="9yTqHVjaec7hdCQsp45S-12" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="Ethanol Flow Sensor" vertex="1">
+          <mxGeometry height="60" width="120" x="410" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="9yTqHVjaec7hdCQsp45S-4" parent="9yTqHVjaec7hdCQsp45S-12" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="GOX Flow Sensor" vertex="1">
+          <mxGeometry height="60" width="120" x="180" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="9yTqHVjaec7hdCQsp45S-5" parent="9yTqHVjaec7hdCQsp45S-12" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="Thermocouple" vertex="1">
+          <mxGeometry height="60" width="120" x="410" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="9yTqHVjaec7hdCQsp45S-6" parent="9yTqHVjaec7hdCQsp45S-12" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="&lt;div&gt;Flow Control Valve&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="200" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9yTqHVjaec7hdCQsp45S-8" parent="9yTqHVjaec7hdCQsp45S-12" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="Actuators" vertex="1">
+          <mxGeometry height="30" width="60" x="320" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9yTqHVjaec7hdCQsp45S-9" parent="9yTqHVjaec7hdCQsp45S-12" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="Sensors" vertex="1">
+          <mxGeometry height="30" width="60" x="330" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="9yTqHVjaec7hdCQsp45S-10" edge="1" parent="9yTqHVjaec7hdCQsp45S-12" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint y="230" as="sourcePoint" />
+            <mxPoint x="710" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9yTqHVjaec7hdCQsp45S-13" parent="1" style="swimlane;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="Subsystems" vertex="1">
+          <mxGeometry height="230" width="200" x="810" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="9yTqHVjaec7hdCQsp45S-18" parent="9yTqHVjaec7hdCQsp45S-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="Safety" vertex="1">
+          <mxGeometry height="30" width="80" x="60" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9yTqHVjaec7hdCQsp45S-19" parent="9yTqHVjaec7hdCQsp45S-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="Monitoring" vertex="1">
+          <mxGeometry height="30" width="80" x="60" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9yTqHVjaec7hdCQsp45S-20" parent="9yTqHVjaec7hdCQsp45S-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="Control" vertex="1">
+          <mxGeometry height="30" width="80" x="60" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9yTqHVjaec7hdCQsp45S-21" parent="9yTqHVjaec7hdCQsp45S-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="Remote Communication" vertex="1">
+          <mxGeometry height="30" width="120" x="60" y="140" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
